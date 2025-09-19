@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nasza Stara Klasa</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo" class="logo" />
+    <h1>Nasza Stara Klasa</h1>
+  </header>
+
+  <main>
+    <section id="current-lesson">
+      <h2>📚 Aktualna lekcja</h2>
+      <div id="lesson-info">Ładowanie...</div>
+    </section>
+
+    <section id="shared-break">
+      <h2>🟢 Wspólna przerwa</h2>
+      <div id="break-info">Brak wspólnej przerwy</div>
+    </section>
+
+    <section id="shared-end">
+      <h2>🟨 Wspólny koniec dnia</h2>
+      <div id="end-info">
+        <label>
+          <input type="checkbox" id="can-return" />
+          Mogę wracać razem
+        </label>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
